@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Trattoria Test E2E | Massa artesanal napolitana, todos os dias em São Paulo</title>
+  <meta name="description" content="Trattoria napolitana na Consolação, São Paulo. Massa artesanal feita à mão todos os dias, ingredientes frescos e receitas tradicionais desde 2020. Reserve pelo WhatsApp.">
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Trattoria Test E2E | São Paulo">
+  <meta property="og:description" content="Trattoria napolitana na Consolação, São Paulo. Massa artesanal feita à mão todos os dias, ingredientes frescos e receitas tradicionais desde 2020. Reserve pelo WhatsApp.">
+  <meta property="og:image" content="assets/og-placeholder.jpg">
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon-placeholder.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org LocalBusiness — Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Trattoria Test E2E",
+    "image": "assets/og-placeholder.jpg",
+    "telephone": "+5511999887766",
+    "servesCuisine": "Cozinha italiana napolitana",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Augusta, 1234 - Consolação",
+      "addressLocality": "São Paulo",
+      "postalCode": "01304-001",
+      "addressCountry": "BR"
+    },
+    "url": "https://trattoriateste2e.com.br"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============================================ -->
+  <!-- NAVBAR — sticky leggera -->
+  <!-- ============================================ -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-name">Trattoria Test E2E</span>
+        <span class="brand-tag">Cozinha italiana napolitana</span>
+      </a>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#sobre">Sobre nós</a>
+        <a href="#menu">Cardápio</a>
+        <a href="#ambiente">Ambiente</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="https://wa.me/5511999887766?text=Olá, gostaria de reservar uma mesa na Trattoria Test E2E." class="cta-primary cta-primary--compact" aria-label="Reservar via WhatsApp">
+        Reservar
+      </a>
+    </div>
+  </header>
+
+  <!-- ============================================ -->
+  <!-- HERO — piatto signature + claim emotivo -->
+  <!-- ============================================ -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="eyebrow fade-up">Tradição desde 2020</span>
+        <h1 class="hero-title fade-up fade-up-delay-1">
+          Sabor de Nápoles, <em>feito à mão</em>
+        </h1>
+        <p class="hero-sub fade-up fade-up-delay-2">
+          <span id="tw-hero" class="tw-words" data-words='["tradição","forno","sabor","família","casa"]'>Massa fresca produzida todas as manhãs pela família, com ingredientes selecionados e o cuidado de quem trouxe receitas da Campânia para São Paulo.</span>
+        </p>
+        <div class="hero-ctas fade-up fade-up-delay-3">
+          <a href="https://wa.me/5511999887766?text=Olá, gostaria de reservar uma mesa na Trattoria Test E2E." class="cta-primary">
+            Reservar pelo WhatsApp
+          </a>
+          <a href="#menu" class="cta-secondary">
+            Ver o cardápio
+          </a>
+        </div>
+        <ul class="hero-badges fade-up fade-up-delay-4" aria-label="Características">
+          <li>
+            <svg class="badge-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M208,80H184V72A56,56,0,0,0,72,72v8H48A16,16,0,0,0,32,96V200a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V96A16,16,0,0,0,208,80ZM88,72a40,40,0,0,1,80,0v8H88Z"/>
+            </svg>
+            Família napolitana
+          </li>
+          <li>
+            <svg class="badge-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="128" cy="128" r="96"/>
+              <polyline points="128 72 128 128 184 128"/>
+            </svg>
+            Massa feita à mão
+          </li>
+          <li>
+            <svg class="badge-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M128,16a88,88,0,0,0-88,88c0,75.3,80,131.5,83.4,133.86a8,8,0,0,0,9.2,0C136,235.5,216,179.3,216,104A88.1,88.1,0,0,0,128,16Z"/>
+              <circle cx="128" cy="104" r="32"/>
+            </svg>
+            Ingredientes frescos
+          </li>
+        </ul>
+      </div>
+      <figure class="hero-image img-fallback fade-up fade-up-delay-2">
+        <img src="https://images.unsplash.com/photo-1667388969250-1c7220bf3f37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMGludGVyaW9yJTIwZWxlZ2FudCUyMHdhcm0lMjBsaWdodGluZ3xlbnwxfDB8fHwxNzc5NjcyNTE5fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Prato de massa fresca artesanal da Trattoria Test E2E com molho de tomate napolitano" width="1400" height="900" onerror="window.__imgFallback(this,'imagem em breve')">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- SOBRE — storia, famiglia, tradizione -->
+  <!-- ============================================ -->
+  <section class="about" id="sobre">
+    <div class="container about-grid">
+      <figure class="about-image img-fallback fade-up">
+        <img src="https://images.unsplash.com/photo-1574966739987-65e38db0f7ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHRhYmxlcyUyMGFtYmlhbmNlfGVufDF8MHx8fDE3Nzk2NzI1MTl8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Família napolitana preparando massa fresca artesanal na cozinha da Trattoria Test E2E" loading="lazy" width="900" height="1100" onerror="window.__imgFallback(this,'imagem em breve')">
+        <figcaption class="about-caption">A família na cozinha, 2020</figcaption>
+      </figure>
+      <div class="about-text">
+        <span class="eyebrow fade-up">Nossa história</span>
+        <h2 class="section-title reveal-wrapper" id="reveal-about">
+          <span class="reveal-line"><span class="reveal-text">De Nápoles para a Consolação</span></span>
+        </h2>
+        <p class="about-body fade-up fade-up-delay-2">
+          Em 2020, uma família napolitana trouxe para a Rua Augusta as receitas que atravessaram gerações na Campânia. Aqui, a massa é amassada à mão todas as manhãs, seguindo a tradição que aprendemos em casa: farinha de trigo selecionada, ovos frescos e o tempo necessário para cada lâmina ganhar a textura certa. Os ingredientes vêm de fornecedores que conhecemos pelo nome, o molho de tomate é preparado devagar, e a cozinha mantém o ritmo de quem cozinha para a família — porque é exatamente o que fazemos.
+        </p>
+        <div class="about-signature fade-up fade-up-delay-3">
+          <span class="signature-line">— Família fundadora</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- SCROLL ANIMATION — food-rustic (impasto) -->
+  <!-- scrollAnimationId: food-rustic (usato dalla pipeline per copiare i frame in assets/scroll/) -->
+  <!-- ============================================ -->
+  <section class="scroll-animation" id="scroll-anim" aria-label="Sequencia cinematografica: massa amassada a mao">
+    <div class="scroll-anim-pin">
+      <canvas id="scroll-canvas" aria-hidden="true"></canvas>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- MENU HIGHLIGHTS — 3-6 piatti signature -->
+  <!-- ============================================ -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <header class="section-header">
+        <span class="eyebrow fade-up">Nosso cardápio</span>
+        <h2 class="section-title reveal-wrapper" id="reveal-menu"><span class="reveal-line"><span class="reveal-text">Os pratos da casa</span></span></h2>
+        <p class="section-lede fade-up fade-up-delay-2">Receitas napolitanas preparadas na hora, com a massa do dia e ingredientes que chegam frescos todas as manhãs.</p>
+      </header>
+
+      <div class="menu-grid">
+        <article class="menu-card stagger-card tilt-soft" data-stagger="0">
+          <div class="menu-card-image img-fallback">
+            <img src="https://images.unsplash.com/photo-1697755389437-ba5c04477e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMEZvdG8lMjBkbyUyMHByYXRvJTIwZm90b2dyYWZhZGElMjBkZSUyMGNpbWElMjBvdSUyMGVtJTIwMyUyRjQuJTIwTHV6JTIwbmF0dXJhbCUyMHF1ZW50ZSUyQyUyMGZ1bmRvJTIwZGUlMjBtYWRlaXJhJTIwb3UlMjB0b2FsaGElMjBkZSUyMGxpbmhvfGVufDF8MHx8fDE3Nzk2NzI1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Tagliatelle fresco com molho de tomate e manjericão servido em prato branco" loading="lazy" width="800" height="800" onerror="window.__imgFallback(this,'imagem em breve')">
+          </div>
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Tagliatelle al pomodoro fresco</h3>
+              <span class="menu-card-price">R$ 54</span>
+            </header>
+            <p class="menu-card-desc">Massa fresca do dia com molho de tomate San Marzano, manjericão e azeite extra-virgem.</p>
+            <span class="menu-tag">Especialidade</span>
+          </div>
+        </article>
+        <article class="menu-card stagger-card tilt-soft" data-stagger="1">
+          <div class="menu-card-image img-fallback">
+            <img src="https://images.unsplash.com/photo-1697755389437-ba5c04477e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMEZvdG8lMjBkbyUyMHByYXRvJTIwZm90b2dyYWZhZGElMjBkZSUyMGNpbWElMjBvdSUyMGVtJTIwMyUyRjQuJTIwTHV6JTIwbmF0dXJhbCUyMHF1ZW50ZSUyQyUyMGZ1bmRvJTIwZGUlMjBtYWRlaXJhJTIwb3UlMjB0b2FsaGElMjBkZSUyMGxpbmhvfGVufDF8MHx8fDE3Nzk2NzI1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Gnocchi alla sorrentina gratinado com mussarela de búfala derretida" loading="lazy" width="800" height="800" onerror="window.__imgFallback(this,'imagem em breve')">
+          </div>
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Gnocchi alla sorrentina</h3>
+              <span class="menu-card-price">R$ 62</span>
+            </header>
+            <p class="menu-card-desc">Nhoque artesanal de batata com molho de tomate, mussarela de búfala e manjericão fresco gratinado.</p>
+            <span class="menu-tag">Receita napolitana</span>
+          </div>
+        </article>
+        <article class="menu-card stagger-card tilt-soft" data-stagger="2">
+          <div class="menu-card-image img-fallback">
+            <img src="https://images.unsplash.com/photo-1697755389437-ba5c04477e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMEZvdG8lMjBkbyUyMHByYXRvJTIwZm90b2dyYWZhZGElMjBkZSUyMGNpbWElMjBvdSUyMGVtJTIwMyUyRjQuJTIwTHV6JTIwbmF0dXJhbCUyMHF1ZW50ZSUyQyUyMGZ1bmRvJTIwZGUlMjBtYWRlaXJhJTIwb3UlMjB0b2FsaGElMjBkZSUyMGxpbmhvfGVufDF8MHx8fDE3Nzk2NzI1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Ravioli de ricota e espinafre com manteiga e sálvia em prato fundo" loading="lazy" width="800" height="800" onerror="window.__imgFallback(this,'imagem em breve')">
+          </div>
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Ravioli di ricotta e spinaci</h3>
+              <span class="menu-card-price">R$ 68</span>
+            </header>
+            <p class="menu-card-desc">Massa recheada com ricota fresca e espinafre, servida com manteiga, sálvia e parmigiano reggiano.</p>
+            <span class="menu-tag">O mais pedido</span>
+          </div>
+        </article>
+        <article class="menu-card stagger-card tilt-soft" data-stagger="3">
+          <div class="menu-card-image img-fallback">
+            <img src="https://images.unsplash.com/photo-1697755389437-ba5c04477e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMEZvdG8lMjBkbyUyMHByYXRvJTIwZm90b2dyYWZhZGElMjBkZSUyMGNpbWElMjBvdSUyMGVtJTIwMyUyRjQuJTIwTHV6JTIwbmF0dXJhbCUyMHF1ZW50ZSUyQyUyMGZ1bmRvJTIwZGUlMjBtYWRlaXJhJTIwb3UlMjB0b2FsaGElMjBkZSUyMGxpbmhvfGVufDF8MHx8fDE3Nzk2NzI1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Parmigiana de berinjela gratinada com queijo derretido" loading="lazy" width="800" height="800" onerror="window.__imgFallback(this,'imagem em breve')">
+          </div>
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Parmigiana di melanzane</h3>
+              <span class="menu-card-price">R$ 58</span>
+            </header>
+            <p class="menu-card-desc">Berinjela empanada com molho de tomate napolitano, mussarela de búfala e parmigiano, gratinada no forno.</p>
+            
+          </div>
+        </article>
+      </div>
+
+      <div class="menu-foot fade-up">
+        <a href="https://wa.me/5511999887766?text=Olá, gostaria de reservar uma mesa na Trattoria Test E2E." class="cta-secondary">
+          Pedir o cardápio completo
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- AMBIENTE — galleria atmosfera -->
+  <!-- ============================================ -->
+  <section class="ambient" id="ambiente">
+    <div class="container">
+      <header class="section-header">
+        <span class="eyebrow fade-up">Como é por aqui</span>
+        <h2 class="section-title reveal-wrapper" id="reveal-ambient"><span class="reveal-line"><span class="reveal-text">Como é comer aqui</span></span></h2>
+        <p class="section-lede fade-up fade-up-delay-2">Ambiente acolhedor e familiar na Consolação, onde a cozinha fica à vista e o cheiro da massa fresca recebe quem entra.</p>
+      </header>
+
+      <div class="ambient-grid">
+        <figure class="ambient-tile ambient-tile--tall img-fallback card-hover-lift tilt-soft">
+          <img src="https://images.unsplash.com/photo-1598432184364-42c64983d347?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMEZvdG8lMjB2ZXJ0aWNhbCUyMDMlM0E0JTIwZG8lMjBhbWJpZW50ZSUzQSUyMG1lc2ElMjBwb3N0YSUyMGNvbSUyMHZpbmhvJTIwZSUyMHAlQzMlQTNvJTJDJTIwZGV0YWxoZSUyMGRlJTIwdGlqb2xvJTIwYXBhcmVudGUlMkMlMjBwYXJlZGUlMjBkZSUyMGZvdHxlbnwxfDB8fHwxNzc5NjcyNTIwfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Interior acolhedor da Trattoria Test E2E com mesas de madeira e decoração familiar" loading="lazy" width="800" height="1100" onerror="window.__imgFallback(this,'imagem em breve')">
+        </figure>
+        <figure class="ambient-tile ambient-tile--wide img-fallback card-hover-lift tilt-soft">
+          <img src="https://images.unsplash.com/photo-1724452145136-09146b975941?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMEZvdG8lMjB3aWRlJTIwMTYlM0E5JTIwcGFub3IlQzMlQTJtaWNhJTIwZG8lMjBzYWwlQzMlQTNvJTNBJTIwbWVzYXMlMjBjb211bml0JUMzJUExcmlhcyUyQyUyMGx1eiUyMHF1ZW50ZSUyQyUyMGF0bW9zZmVyYSUyMG5vdHVybmEuJTIwUG9kZSUyMG1vc3RyYXIlMjB8ZW58MXwwfHx8MTc3OTY3MjUyMXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Salão da trattoria com iluminação quente e mesas próximas criando ambiente familiar" loading="lazy" width="1200" height="700" onerror="window.__imgFallback(this,'imagem em breve')">
+        </figure>
+        <figure class="ambient-tile ambient-tile--square img-fallback card-hover-lift tilt-soft">
+          <img src="assets/ambient3-placeholder.jpg" alt="Fachada da Trattoria Test E2E na Rua Augusta em São Paulo" loading="lazy" width="800" height="800" onerror="window.__imgFallback(this,'imagem em breve')">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- INFO — orari, indirizzo, contatti (STATICO — respiro) -->
+  <!-- ============================================ -->
+  <section class="info" id="contato">
+    <div class="container info-grid">
+
+      <div class="info-block fade-up">
+        <div class="info-icon-wrap" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="128" cy="128" r="96"/>
+            <polyline points="128 72 128 128 184 128"/>
+          </svg>
+        </div>
+        <h3 class="info-title">Horário de funcionamento</h3>
+        <ul class="hours-list">
+          <li>
+            <span class="hours-day">Terça a sexta</span>
+            <span class="hours-time">12h às 15h · 19h às 23h</span>
+          </li>
+          <li>
+            <span class="hours-day">Sábado</span>
+            <span class="hours-time">12h às 16h · 19h às 23h30</span>
+          </li>
+          <li>
+            <span class="hours-day">Domingo</span>
+            <span class="hours-time">12h às 16h</span>
+          </li>
+          <li>
+            <span class="hours-day">Segunda</span>
+            <span class="hours-time">Fechado</span>
+          </li>
+        </ul>
+        <p class="info-note">Reservas recomendadas para o jantar, especialmente nos fins de semana.</p>
+      </div>
+
+      <div class="info-block fade-up">
+        <div class="info-icon-wrap" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M128,16a88,88,0,0,0-88,88c0,75.3,80,131.5,83.4,133.86a8,8,0,0,0,9.2,0C136,235.5,216,179.3,216,104A88.1,88.1,0,0,0,128,16Z"/>
+            <circle cx="128" cy="104" r="32"/>
+          </svg>
+        </div>
+        <h3 class="info-title">Onde nos encontrar</h3>
+        <address class="info-address">
+          <span class="address-street">Rua Augusta, 1234 - Consolação</span>
+          <span class="address-city">01304-001 — São Paulo, SP</span>
+        </address>
+        <a href="https://maps.google.com/?q=Rua+Augusta+1234+Consola%C3%A7%C3%A3o+S%C3%A3o+Paulo" target="_blank" rel="noopener" class="cta-link">
+          Abrir no Google Maps
+        </a>
+      </div>
+
+      <div class="info-block fade-up">
+        <div class="info-icon-wrap" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M159.4,40A80.1,80.1,0,0,1,216,96.6"/>
+            <path d="M151.1,70.9a48,48,0,0,1,34,34"/>
+            <path d="M156.4,151.6a23.6,23.6,0,0,0-32.6.6h0a23.6,23.6,0,0,1-32.6.6L56.5,118a23.6,23.6,0,0,1,.6-32.6h0a23.6,23.6,0,0,0,.6-32.6L41.4,33.4a16,16,0,0,0-23,.3C-3.8,57.6-1.8,99.6,42,143.4s85.8,45.8,109.7,23.5a16,16,0,0,0,.3-23Z"/>
+          </svg>
+        </div>
+        <h3 class="info-title">Fale com a gente</h3>
+        <p class="info-line">
+          <a href="tel:+5511999887766" class="info-link">+55 (11) 99988-7766</a>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- CTA FINALE — banda piena verso WhatsApp -->
+  <!-- ============================================ -->
+  <section class="cta-band">
+    <div class="container cta-band-inner">
+      <h2 class="cta-band-title reveal-wrapper" id="reveal-cta"><span class="reveal-line"><span class="reveal-text">Sua mesa está pronta</span></span></h2>
+      <p class="cta-band-sub fade-up fade-up-delay-1">Reserve pelo WhatsApp e garantimos sua mesa com o ambiente preparado para receber você e sua família.</p>
+      <a href="https://wa.me/5511999887766?text=Olá, gostaria de reservar uma mesa na Trattoria Test E2E." class="cta-primary cta-primary--light fade-up fade-up-delay-2">
+        Reservar pelo WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- FOOTER -->
+  <!-- ============================================ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name footer-brand-name">Trattoria Test E2E</span>
+        <p class="footer-tag">Massa artesanal napolitana, todos os dias</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Endereço</h4>
+        <p>Rua Augusta, 1234 - Consolação<br>01304-001 — São Paulo, SP</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Contato</h4>
+        <p><a href="tel:+5511999887766">+55 (11) 99988-7766</a></p>
+        
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Horário</h4>
+        <p>Terça a sexta · 12h às 15h · 19h às 23h</p>
+        <p>Sábado · 12h às 16h · 19h às 23h30</p>
+        <p>Domingo · 12h às 16h</p>
+        <p>Segunda · Fechado</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <span>© <span id="year">2026</span> Trattoria Test E2E. Todos os direitos reservados.</span>
+      <span class="footer-cnpj">CNPJ informativo · São Paulo, Brasil</span>
+    </div>
+  </footer>
+
+  <!-- Script in fondo per non bloccare il render -->
+  <script src="script.js" defer></script>
+</body>
+</html>
